@@ -1,0 +1,30 @@
+/* start form */
+form{
+    max-width: 450px;
+    margin: 20px auto;
+}
+.form-group{
+    margin-bottom: 0;
+    position: relative;
+}
+form input,
+form textarea{
+    margin-bottom: 10px;
+}
+.form-group .asterisx{
+    float: right;
+    height: 0;
+    color: #f00;
+    position: absolute;
+    right: 8px;
+    top: 3px;
+    font-size: 25px;
+}
+
+form textarea{
+    height: 180px;
+}
+.custom-alert{
+    display: none;
+}
+/* End form */
